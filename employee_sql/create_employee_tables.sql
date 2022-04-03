@@ -6,9 +6,9 @@
 CREATE TABLE "employees" (
     "emp_id" INT   NOT NULL,
     "title_id" VARCHAR   NOT NULL,
-    "birth_date" VARCHAR   NOT NULL,
+    "birth_date" DATE   NOT NULL,
     "first_name" VARCHAR   NOT NULL,
-    "last_name" VARHCHAR   NOT NULL,
+    "last_name" VARCHAR   NOT NULL,
     "gender" VARCHAR   NOT NULL,
     "hire_date" DATE   NOT NULL,
     CONSTRAINT "pk_employees" PRIMARY KEY (
